@@ -1,13 +1,21 @@
+:root{
+  --clr-primary: #9bafd9;
+  --clr-secondary: #103783;
+  --clr-font: #ffffff;
+  --clr-body: var(--clr-primary);
+}
+
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--clr-body);  
 }
 
 header, footer {
-    background-color: #333;
-    color: white;
+    background-color: var(--clr-secondary);
+    color: var(--clr-font);
     text-align: center;
     padding: 1em 0;
 }
