@@ -28,12 +28,13 @@ header, footer {
 }
 
 .box {
-    background-color: #f4f4f4;
-    border: 1px solid #ddd;
-    padding: 1em;
-    margin: 0.5em;
-    flex: 1 1 200px; /* Elastyczne elementy */
-    text-align: center;
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  padding: 1em;
+  margin: 0.5em;
+  flex: 1 1 200px; /* Elastyczne elementy */
+  text-align: center;
+  border-radius: 5px;
 }
 
 /* Style responsywne */
