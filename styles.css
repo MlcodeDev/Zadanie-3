@@ -1,6 +1,11 @@
+a {
+  text-decoration: none;
+}
 :root{
   --clr-primary: #9bafd9;
   --clr-secondary: #103783;
+  --clr-tetriary: grey;
+  --clr-black: #000000;
   --clr-font: #ffffff;
   --clr-body: var(--clr-primary);
 }
@@ -28,6 +33,7 @@ header, footer {
 }
 
 .box {
+  color: black;
   background-color: #f4f4f4;
   border: 1px solid #ddd;
   padding: 1em;
@@ -35,6 +41,13 @@ header, footer {
   flex: 1 1 200px; /* Elastyczne elementy */
   text-align: center;
   border-radius: 5px;
+  box-shadow: .4em .4em var(--clr-tetriary);
+  transition: all ease .5s;
+}
+
+.box:hover {
+  background-color: #8d99ae;
+  color: white;
 }
 
 /* Style responsywne */
