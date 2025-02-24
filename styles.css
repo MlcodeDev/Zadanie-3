@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
 a {
   text-decoration: none;
 }
@@ -8,6 +10,8 @@ a {
   --clr-black: #000000;
   --clr-font: #ffffff;
   --clr-body: var(--clr-primary);
+  
+  --ff-alt: "Comic Neue", serif;
 }
 
 body {
@@ -43,11 +47,17 @@ header, footer {
   border-radius: 5px;
   box-shadow: .4em .4em var(--clr-tetriary);
   transition: all ease .5s;
+  font-family: var(--ff-alt); 
 }
 
 .box:hover {
   background-color: #8d99ae;
   color: white;
+}
+
+.box img {
+  max-width: 30px;
+  height: auto;
 }
 
 /* Style responsywne */
